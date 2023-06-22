@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/form.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Form</title>
+    <script src="js/jquery-3.6.3.js" charset="utf-8"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- <img class="fon" src="img/form.png" alt=""> -->
+    <div class="thanks">
+        <div class="dark"></div>
+        <div id="head2" class="head">Спасибо! Ждем <br> вас в «Понимяо»!</div>
+    </div>
+    <section class="menu">
+        <img class="logo" src="img/logo.svg" alt="">
+        <a class="main" href="./index.html">main</a>
+        <div class="buttons">
+            <div class="button1">
+                <a class="menutext" href="./landing.html">О нас</a>
+            </div>
+            <div class=" button2">
+                <a class="menutext" href="./posters.html">Афиша</a>
+            </div>
+            <div class="button3">
+                <a class="menutext" href="./cakes.html">Меню</a>
+            </div>
+            <div class="button4">
+                <a class="menutext" href="./form.html">Бронь</a>
+            </div>
+        </div>
+    </section>
+    <div class="allform">
+        <div class="background"></div>
+        <div class="forma">
+            <div class="head">Забронировать</div>
+            <div id="small1" class="small">На какое имя бронируем?</div>
+            <input type="text" class="colortext" placeholder="Введите имя" name="email" required>
+            <div id="small2" class="small">Номер телефона</div>
+            <input type="tel" class="colortext" placeholder="Телефон" name="psw" required>
+
+            <div id="small3" class="small">Количество персон</div>
+            <input type="number" placeholder="1" name="psw" value="2" min="1" max="15" step="1">
+
+            <div id="small4" class="small">Дата посещения</div>
+            <input type="date" placeholder="Выберите дату" name="email" required>
+            <div id="small5" class="small">Время</div>
+            <input type="time" placeholder="12:00" name="time" required>
+            <div id="small6" class="small">Комментарий</div>
+            <form>
+                <input type="info" placeholder="Текст вашего сообщения">
+            </form>
+            <button type="submit" class="reserve">Забронировать</button>
+
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

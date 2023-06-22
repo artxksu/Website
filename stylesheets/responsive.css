@@ -1,0 +1,526 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    #design {
+        height: 55.5vw;
+    }
+
+    .rooms {
+        width: 49vw;
+        height: 46vw;
+    }
+
+    .section1row,
+    .section2row {
+        height: 78vw;
+    }
+
+    #posters {
+        width: 41vw;
+        height: 63vw;
+    }
+
+    @keyframes posters {
+        0% {
+            transform: translate(10%, 0);
+        }
+
+        100% {
+            transform: translate(-690%, 0);
+        }
+    }
+
+    @keyframes secondposters {
+        0% {
+            transform: translate(-615%, 0);
+        }
+
+        100% {
+            transform: translate(10%, 0);
+        }
+    }
+
+    #name {
+        font-size: 2.49vw;
+        width: 44vw;
+        line-height: 3.24vw;
+    }
+
+    .onegif {
+        font-size: 2.49vw;
+    }
+
+    .twogif {
+        font-size: 2.49vw;
+        line-height: 3.24vw;
+    }
+
+    #divall {
+        width: 55vw;
+        height: 62vw;
+    }
+
+    .allform {
+        height: 137vw;
+    }
+
+    .forma {
+        z-index: 3;
+        position: absolute;
+        transform: scale(1.35);
+        left: -3vw;
+        top: -2vw;
+    }
+
+    .small {
+        width: 41vw;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 767px) {
+    .allform {
+        height: 137vw;
+    }
+
+    .forma {
+        z-index: 3;
+        position: absolute;
+        transform: scale(1.35);
+        left: -3vw;
+        top: -2vw;
+    }
+
+    .small {
+        width: 41vw;
+    }
+
+    .section1tort {
+        height: 148.5vw;
+    }
+
+    .box {
+        transform: scale(1.5);
+        left: 33vw;
+    }
+
+    .buttonbig {
+        z-index: 3;
+        transform: scale(1.5);
+        left: 35.7vw;
+        top: 45vw;
+    }
+
+    .cake {
+        width: 96.49000000000001vw;
+        height: 113.055vw;
+        left: 5.68vw;
+        top: 35.56vw;
+    }
+
+    .blur {
+        width: 101.57vw;
+        height: 113.31vw;
+        left: -1.5vw;
+        top: 35.3vw;
+    }
+
+    .fire {
+        transform: scale(1.6);
+        top: 55.9vw;
+        left: 33.69vw
+    }
+
+    .rooms {
+        width: 49vw;
+        height: 46vw;
+    }
+
+    .second {
+        height: 55.5vw;
+    }
+
+    .section1row,
+    .section2row {
+        height: 78vw;
+    }
+
+    #posters {
+        width: 41vw;
+        height: 63vw;
+    }
+
+    @keyframes posters {
+        0% {
+            transform: translate(10%, 0);
+        }
+
+        100% {
+            transform: translate(-690%, 0);
+        }
+    }
+
+    @keyframes secondposters {
+        0% {
+            transform: translate(-615%, 0);
+        }
+
+        100% {
+            transform: translate(10%, 0);
+        }
+    }
+
+    #name {
+        font-size: 2.49vw;
+        width: 44vw;
+        line-height: 3.24vw;
+    }
+
+    .onegif {
+        font-size: 2.49vw;
+    }
+
+    .twogif {
+        font-size: 2.49vw;
+        line-height: 3.24vw;
+    }
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven,
+    .eight,
+    .nine,
+    .ten,
+    .eleven,
+    .twelwe {
+        width: 42.33vw;
+        height: 45.33vw;
+    }
+
+    .flexitems {
+
+        padding-left: 9vw;
+        width: 88vw;
+    }
+
+    .nine {
+        display: none;
+    }
+
+    .flexdrinks {
+        display: block;
+        padding-top: 60vw;
+        padding-left: 8vw;
+    }
+
+    .footercake {
+        margin-top: 69vw;
+
+    }
+
+
+}
+
+@media (min-width: 415px) and (max-width: 600px) {
+
+    .button1,
+    .button2,
+    .button3,
+    .button4 {
+        padding: 0.61vw 2.85vw;
+    }
+
+    .buttons {
+        width: 48vw;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 414px) {
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven,
+    .eight,
+    .nine,
+    .ten,
+    .eleven,
+    .twelwe {
+        width: 42.33vw;
+        height: 45.33vw;
+    }
+
+    .flexitems {
+
+        padding-left: 9vw;
+        width: 88vw;
+    }
+
+    .nine {
+        display: none;
+    }
+
+    .flexdrinks {
+        display: block;
+        padding-top: 59vw;
+        padding-left: 8vw;
+    }
+
+    .footercake {
+        margin-top: 70vw;
+    }
+
+
+
+    .menu {
+        width: 97vw;
+
+    }
+
+    .rooms {
+        width: 49vw;
+        height: 46vw;
+    }
+
+    .second {
+        height: 55vw;
+    }
+
+    .slider {
+        height: 200vw;
+    }
+
+    .first {
+        height: 130vw;
+    }
+
+    .pink {
+        width: 98vw;
+    }
+
+    .house {
+        width: 95.125vw;
+        height: 75.72vw;
+    }
+
+    .boxright {
+        transform: scale(1.4);
+        top: 86vw;
+        left: 35vw;
+    }
+
+    .kotoponchik {
+        transform: scale(1.4);
+        left: 12vw;
+        top: 18vw;
+    }
+
+    .kit {
+        top: 36vw;
+    }
+
+    .cat {
+        height: 87vw;
+    }
+
+    .section1tort {
+        height: 148.5vw;
+    }
+
+    .box {
+        transform: scale(1.5);
+        left: 33vw;
+    }
+
+    .buttonbig {
+        z-index: 3;
+        transform: scale(1.5);
+        left: 35.7vw;
+        top: 45vw;
+    }
+
+    .cake {
+        width: 96.49000000000001vw;
+        height: 113.055vw;
+        left: 5.68vw;
+        top: 35.56vw;
+    }
+
+    .blur {
+        width: 101.57vw;
+        height: 113.31vw;
+        left: -1.5vw;
+        top: 35.3vw;
+    }
+
+    .fire {
+        transform: scale(1.6);
+        top: 55.9vw;
+        left: 33.69vw
+    }
+
+    .section3gif {
+        height: 228vw;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    #gif {
+        transform: scale(1.8);
+    }
+
+    .gifka1,
+    .gifka2 {
+        padding-left: 31vw;
+    }
+
+    .onegif {
+        transform: scale(1.8);
+        top: 107.5vw;
+        left: 29.5vw;
+    }
+
+    .twogif {
+        transform: scale(1.8);
+        top: 221.5vw;
+        left: 29.5vw;
+    }
+
+    .section1row,
+    .section2row {
+        height: 78vw;
+    }
+
+    #posters {
+        width: 41vw;
+        height: 63vw;
+    }
+
+    @keyframes posters {
+        0% {
+            transform: translate(10%, 0);
+        }
+
+        100% {
+            transform: translate(-690%, 0);
+        }
+    }
+
+    @keyframes secondposters {
+        0% {
+            transform: translate(-615%, 0);
+        }
+
+        100% {
+            transform: translate(10%, 0);
+        }
+    }
+
+    .back3 {
+        top: 9vw;
+    }
+
+    .back2 {
+        top: 126vw;
+    }
+
+    .allform {
+        height: 137vw;
+    }
+
+    .forma {
+        z-index: 3;
+        position: absolute;
+        transform: scale(1.35);
+        left: -3vw;
+        top: -2vw;
+    }
+
+    .small {
+        width: 41vw;
+    }
+
+    .tort1,
+    .tort2,
+    .tort3,
+    .tort4,
+    .tort5,
+    .tort6,
+    .tort7,
+    .tort8,
+    .tort10,
+    .tort11,
+    .tort12 {
+        transform: scale(1.2);
+        position: absolute;
+        left: 17vw;
+    }
+
+
+
+    .textblock1,
+    .textblock2,
+    .textblock3,
+    .textblock4,
+    .textblock5,
+    .textblock6,
+    .textblock7,
+    .textblock8,
+    .textblock10,
+    .textblock11,
+    .textblock12 {
+        position: absolute;
+        transform: scale(1.7);
+        top: 65vw;
+        left: 26vw;
+    }
+
+    .textblock2 {
+        top: 68vw;
+    }
+
+    .textblock3 {
+        top: 53vw;
+    }
+
+    .textblock6 {
+        top: 69vw;
+    }
+
+    .tortpage1,
+    .tortpage2,
+    .tortpage3,
+    .tortpage4,
+    .tortpage5,
+    .tortpage6,
+    .tortpage7,
+    .tortpage8,
+    .tortpage10,
+    .tortpage11,
+    .tortpage12 {
+        height: 148.5vw;
+    }
+
+    #hfourth {
+        position: absolute;
+        top: 34vw;
+    }
+
+    #button2 {
+        top: 40vw;
+    }
+
+    .info3 {
+        padding-top: 19vw;
+    }
+
+    .info6 {
+        padding-top: 19vw;
+    }
+
+}

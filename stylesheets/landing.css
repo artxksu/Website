@@ -1,0 +1,656 @@
+.fon2 {
+    opacity: 40%;
+    z-index: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+.small {
+    font-size: 1.89vw;
+    color: #FF92B9;
+}
+
+.menutext {
+    font-size: 1.55vw;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    z-index: 2;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    top: 6.5vw;
+    width: 89.07vw;
+    padding-left: 4.4vw;
+}
+
+
+
+.first {
+    position: relative;
+    height: 57.05vw;
+    margin-top: 10vw;
+}
+
+.boxright {
+    position: relative;
+    width: 34.03vw;
+    height: 28.125vw;
+    left: 59.76vw;
+    top: 12vw;
+}
+
+.pinklogo {
+    position: absolute;
+    width: 28.67vw;
+    height: 5.56vw;
+}
+
+.pfirst,
+.psecond {
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    font-size: 1.99vw;
+    color: #FF92B9;
+    position: absolute;
+    line-height: 2.29vw;
+
+
+}
+
+.pfirst {
+    top: 10vw;
+}
+
+.psecond {
+    top: 19vw;
+}
+
+.small:hover {
+    color: #D681FF;
+    transition: 0.5s;
+}
+
+#we:hover {
+    color: #D681FF;
+    transition: 0.5s;
+}
+
+
+
+.pink {
+    position: absolute;
+    z-index: 1;
+    width: 67.08vw;
+    height: 71.014vw;
+
+}
+
+.house {
+    position: absolute;
+    z-index: 2;
+    width: 53.125vw;
+    height: 48.72vw;
+    left: 1.7vw;
+    top: 1.62vw;
+}
+
+.second {
+    position: relative;
+    height: 65.5vw;
+    overflow: hidden;
+}
+
+.two {
+    left: 10vw;
+}
+
+.big1,
+.big2 {
+    font-size: 6.16vw;
+    color: #FF92B9;
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 500;
+}
+
+.big2 {
+    padding-left: 4vw;
+}
+
+/* интерьер по ховеру */
+.room1 {
+    z-index: 1;
+    top: 9vw;
+}
+
+.room1:hover {
+    z-index: 6;
+}
+
+
+.room2 {
+    z-index: 2;
+    top: 9vw;
+    left: 20.28vw;
+}
+
+.room2:hover {
+    z-index: 6;
+
+}
+
+.room3 {
+    z-index: 3;
+    top: 9vw;
+    left: 40.42vw;
+}
+
+.room3:hover {
+    z-index: 6;
+}
+
+.room4 {
+    z-index: 4;
+    top: 9vw;
+    left: 59.93vw;
+}
+
+.room4:hover {
+    z-index: 6;
+}
+
+.room5 {
+    z-index: 5;
+    top: 9vw;
+    left: 80vw;
+}
+
+.room:hover {
+    z-index: 6;
+
+}
+
+
+.rooms {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.third {
+    position: relative;
+    height: 60.097vw;
+}
+
+iframe {
+    width: 92%;
+    height: 86.2%;
+    padding-left: 4vw;
+    padding-top: 4vw;
+}
+
+#iframe2 {
+    padding-top: 10vw;
+}
+
+#iframe3 {
+    padding-top: 8vw;
+}
+
+.lines {
+    width: 100vw;
+    height: 0.2vw;
+    background-color: #D681FF;
+    position: absolute;
+}
+
+.line6 {
+    margin-top: 29vw;
+}
+
+.fourth {
+    position: relative;
+    height: 138.89vw;
+}
+
+
+.info1 {
+    position: relative;
+    height: 29vw;
+}
+
+
+
+.info2 {
+    position: relative;
+    height: 28.5vw;
+}
+
+.info3 {
+    position: relative;
+    height: 29vw;
+}
+
+.info4 {
+    position: relative;
+    height: 28.5vw;
+}
+
+.info5 {
+    position: relative;
+    height: 29vw;
+}
+
+.gradient {
+    z-index: 1;
+    width: 43.54vw;
+    height: 30.89vw;
+    animation: gradient 6s ease-out infinite;
+}
+
+/* размытие элементов */
+@keyframes gradient {
+    from {
+        filter: blur(3vw);
+        transform: scale(1);
+    }
+
+    50% {
+        filter: blur(10.11vw);
+        transform: scale(1.1);
+    }
+}
+
+.radial1 {
+    margin-top: 4vw;
+}
+
+.radial5 {
+    margin-top: -2vw;
+}
+
+h2 {
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 500;
+    z-index: 2;
+    color: #D681FF;
+    font-size: 4.17vw;
+}
+
+.oneroom,
+.tworoom,
+.threeroom,
+.fourroom,
+.fiveroom {
+    position: absolute;
+    top: 12.19vw;
+    left: 3.82vw;
+}
+
+.picone,
+.pictwo,
+.picthree,
+.picfour,
+.picfive {
+    position: absolute;
+    width: 17.36vw;
+    height: 17.36vw;
+    left: 68.96vw;
+    top: 5.92vw;
+}
+
+.picone:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.pictwo:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.picthree:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.picfour:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+.picfive:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+#plus1,
+.plus2,
+.plus3,
+.plus4,
+.plus5 {
+    position: absolute;
+    top: 13.26vw;
+    left: 92.49vw;
+    width: 2.99vw;
+    height: 2.99vw;
+}
+
+.infofirst,
+.infosecond,
+.infothird,
+.infofourth,
+.infofifth {
+    position: absolute;
+    font-size: 2.007vw;
+    color: #D681FF;
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    width: 45.57vw;
+    height: 8.89vw;
+    left: 4.028vw;
+    top: 11vw;
+    z-index: 2;
+    line-height: 2.29vw;
+    display: none;
+
+}
+
+.book {
+    position: relative;
+    height: 78.4vw;
+
+}
+
+.bookbig {
+    position: absolute;
+    font-size: 6.16vw;
+    color: #FF92B9;
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 500;
+    padding-left: 4vw;
+    top: 6vw;
+}
+
+.bookfon {
+    position: absolute;
+    width: 90.76vw;
+    height: 60.99vw;
+    top: 13.26vw;
+    left: 4.58vw;
+    z-index: 1;
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, #FFA2C3 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+    filter: blur(6.87vw);
+    transition: 3s;
+
+}
+
+.gif {
+    position: absolute;
+    width: 99.22vw;
+    height: 57.43vw;
+    top: 15vw;
+    left: -7vw;
+    z-index: 2;
+}
+
+.bookfon:hover {
+
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, #7dcaf6 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+    filter: blur(6.87vw);
+    transition: 5s;
+}
+
+.webposter {
+    position: relative;
+    height: 70.4vw;
+    margin-top: -2vw;
+}
+
+.recipe {
+    position: absolute;
+    font-size: 6.16vw;
+    color: #FF92B9;
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 500;
+    padding-left: 4vw;
+}
+
+.recipefon {
+    position: absolute;
+    width: 90.76vw;
+    height: 60.99vw;
+    top: 9.26vw;
+    left: 4.58vw;
+    z-index: 1;
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, rgba(228, 172, 255, 0.850968) 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+    filter: blur(99px);
+    transition: 3s;
+}
+
+.recipefon:hover {
+
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, #7dcaf6 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+    filter: blur(6.87vw);
+    transition: 5s;
+}
+
+.web {
+    position: absolute;
+    width: 95.22vw;
+    height: 53.43vw;
+    top: 10vw;
+    left: 2vw;
+    z-index: 2;
+
+}
+
+.slider {
+    position: relative;
+    height: 190vw;
+    overflow: hidden;
+
+}
+
+.textslider {
+    position: absolute;
+    font-size: 6.16vw;
+    color: #FF92B9;
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 500;
+    padding-left: 4vw;
+    line-height: 7.014vw;
+}
+
+.flexitems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 175vw;
+    padding-top: 15vw;
+
+    padding-right: 5vw;
+
+
+}
+
+.odin,
+.dva,
+.tri,
+.chetyru,
+.pyat,
+.shest,
+.sem,
+.vosem {
+    width: 38.19vw;
+    height: 38.19vw;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+    width: 38.19vw;
+    height: 38.19vw;
+    border-radius: 5.76vw;
+    filter: blur(3.2vw);
+    z-index: 1;
+    position: absolute;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8 {
+    z-index: 2;
+    width: 47vw;
+    height: 47vw;
+    position: absolute;
+
+}
+
+
+.div1,
+.div4,
+.div5,
+.div8 {
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, rgba(228, 172, 255, 0.850968) 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+
+}
+
+.div3,
+.div7 {
+    background: radial-gradient(88.04% 42.41% at 49.93% 50%, #FFA2C3 30.21%, rgba(255, 233, 175, 0.74) 96.88%);
+}
+
+.div2,
+.div6 {
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, #FFA2C3 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+    animation: vibe 3s ease-out infinite;
+
+}
+
+@keyframes vibe {
+    from {
+        filter: blur(2.3vw);
+
+    }
+
+    50% {
+        filter: blur(5.2vw);
+
+    }
+}
+
+
+.cat {
+    position: relative;
+    height: 81vw;
+
+}
+
+.grad1,
+.grad2 {
+    position: absolute;
+    filter: blur(4.2vw);
+    width: 50.7vw;
+    height: 50.7vw;
+    z-index: 0;
+}
+
+.grad1 {
+    top: 18vw;
+    left: 44.6vw;
+    background: radial-gradient(88.04% 42.41% at 49.93% 50%, rgba(255, 162, 195, 0.78) 30.21%, rgba(255, 233, 175, 0.5772) 96.88%);
+}
+
+.grad2 {
+    top: 39.08vw;
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, #FFA2C3 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+}
+
+.kotoponchik {
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    font-size: 1.99vw;
+    width: 37.5vw;
+    color: #FF92B9;
+    position: absolute;
+    top: 15vw;
+    left: 5vw;
+    line-height: 2.29vw;
+}
+
+.kit {
+    position: absolute;
+    width: 91.22vw;
+    height: 50.43vw;
+    top: 30vw;
+    left: 4.5vw;
+    z-index: 2;
+}
+
+.footer {
+    position: relative;
+    height: 11.4vw;
+}
+
+.onepart {
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    font-size: 1.99vw;
+    width: 37.5vw;
+    color: #FF92B9;
+    position: absolute;
+    top: 3vw;
+    left: 4.5vw;
+    line-height: 2.29vw;
+    z-index: 2;
+}
+
+.twopart {
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    font-size: 1.99vw;
+    width: 37.5vw;
+    color: #FF92B9;
+    position: absolute;
+    top: 3vw;
+    left: 30vw;
+    line-height: 2.29vw;
+    z-index: 2;
+}
+
+.minilogo {
+    position: absolute;
+    width: 9.86vw;
+    height: 2.083;
+    top: 5vw;
+    left: 86.11vw;
+}

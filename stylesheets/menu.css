@@ -1,0 +1,92 @@
+.menu {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 96vw;
+    height: 5.9vw;
+    padding-left: 2.083vw;
+    padding-right: 2.083vw;
+    z-index: 8;
+    top: 0;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    z-index: 2;
+}
+
+.main {
+    position: absolute;
+    font-size: 5vw;
+    opacity: 1%;
+    color: #ffffff;
+
+}
+
+.menutext {
+    font-size: 1.55vw;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.logo {
+    width: 9.86vw;
+    height: 2.06vw;
+    z-index: 1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 41.18vw;
+    z-index: 1;
+}
+
+.button1,
+.button2,
+.button3,
+.button4 {
+    background-color: #FF92B9;
+    border-radius: 1.94vw;
+}
+
+.button1 {
+    padding: 0.9vw 1.85vw;
+}
+
+.button2 {
+    padding: 0.9vw 1.85vw;
+}
+
+.button3 {
+    padding: 0.9vw 1.95vw;
+}
+
+.button4 {
+    padding: 0.9vw 2.05vw;
+}
+
+.button1:hover {
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, rgba(228, 172, 255, 0.850968) 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+    transition: 2s;
+}
+
+.button2:hover {
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, #FFA2C3 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+    transition: 2s;
+}
+
+.button3:hover {
+    background: radial-gradient(88.04% 42.41% at 49.93% 50%, #FFA2C3 30.21%, rgba(255, 233, 175, 0.74) 96.88%);
+    transition: 2s;
+}
+
+.button4:hover {
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, rgba(228, 172, 255, 0.850968) 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+    transition: 2s;
+}
