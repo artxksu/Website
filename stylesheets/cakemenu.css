@@ -1,0 +1,616 @@
+/* общие стили */
+.fon {
+    opacity: 40%;
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+}
+
+.menu {
+    position: relative;
+}
+
+.all,
+.all7,
+.all8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.all7,
+.all8 {
+    height: 60vw;
+}
+
+h2 {
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    font-size: 4.17vw;
+}
+
+p {
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2.29vw;
+}
+
+.mini {
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    font-size: 1.52vw;
+    line-height: 2.69vw;
+    border-radius: 100vw;
+    border: 0.2px;
+    width: 2.7vw;
+    height: 2.7vw;
+    color: #66BFFF;
+}
+
+#mini10,
+#mini11,
+#mini12 {
+    color: #D681FF;
+    border: 0.3vw solid #D681FF;
+}
+
+#mini16,
+#mini17,
+#mini18 {
+    color: #66BFFF;
+    border: 0.3vw solid #66BFFF;
+}
+
+#divall {
+    width: 52.08vw;
+    height: 52.08vw;
+    position: absolute;
+    z-index: 1;
+    animation: vibe 3s ease-out infinite;
+}
+
+.cake1 {
+    width: 52.08vw;
+    height: 52.08vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.button {
+    padding-top: 1.2vw;
+    text-align: center;
+    width: 24.5vw;
+    height: 3.2vw;
+    border: 0.2vw;
+    border-radius: 100vw;
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.button1:hover {
+    color: #D681FF;
+    transition: 0.5s;
+
+}
+
+@keyframes vibe {
+    from {
+        filter: blur(2.3vw);
+    }
+
+    50% {
+        filter: blur(5.2vw);
+    }
+}
+
+/* стили для первой странички */
+#hfirst,
+#hsecond,
+#hnineth,
+#htenth,
+#hseventeenth,
+#heighteenth,
+#p9,
+#p5,
+#p1,
+#h23th,
+#h24th,
+#p12 {
+    color: #66BFFF;
+}
+
+#hfifth,
+#hsixth,
+#hseventh,
+#heighth,
+#hfifteenth,
+#hsixteenth,
+#hnineteenth,
+#htwentyth,
+#p10,
+#p8,
+#p3,
+#p4 {
+    color: #FF92B9;
+}
+
+#hsixth {
+    position: absolute;
+    top: 42vw;
+}
+
+#htenth {
+    position: absolute;
+    top: 44vw;
+}
+
+#heighth {
+    position: absolute;
+    top: 37vw;
+}
+
+#htenth {
+    top: 39vw;
+}
+
+#htwelweth {
+    position: absolute;
+    top: 38vw;
+}
+
+#hsecond {
+    padding-top: 2vw;
+
+}
+
+#hfourteenth {
+    position: absolute;
+    top: 44.5vw;
+}
+
+
+#hsixteenth {
+    position: absolute;
+    top: 41vw;
+}
+
+#htwentyth,
+#h22th {
+    position: absolute;
+    top: 32.5vw;
+}
+
+#h24th {
+    position: absolute;
+    top: 27.5vw;
+
+}
+
+#hthird,
+#hfourth,
+#heleventh,
+#htwelweth,
+#hthirteenth,
+#hfourteenth,
+#p7,
+#p6,
+#p2,
+#h21th,
+#h22th,
+#p11 {
+    color: #D681FF;
+
+}
+
+#mini1,
+#mini2,
+#mini3,
+#button1,
+#button5,
+#button9,
+#button12 {
+    border: 0.3vw solid #66BFFF;
+    color: #66BFFF;
+}
+
+#mini4,
+#mini5,
+#mini6,
+#button10 {
+    border: 0.3vw solid #FF92B9;
+    color: #FF92B9;
+}
+
+#mini7,
+#mini8,
+#mini9,
+#button11 {
+    border: 0.3vw solid #D681FF;
+    color: #D681FF;
+}
+
+#mini13,
+#mini14,
+#mini15 {
+    border: 0.3vw solid #FF92B9;
+    color: #FF92B9;
+}
+
+#button2,
+#button6,
+#button7 {
+    border: 0.3vw solid #D681FF;
+    color: #D681FF;
+    position: absolute;
+    top: 45vw;
+}
+
+#hfourth {
+    position: absolute;
+    top: 40vw;
+}
+
+
+#button1,
+#button5,
+#button9 {
+    color: #66BFFF;
+    position: absolute;
+    top: 49vw;
+
+}
+
+#button5 {
+    top: 44.8vw;
+}
+
+#button3,
+#button4,
+#button8 {
+    color: #FF92B9;
+    border: 0.3vw solid #FF92B9;
+    position: absolute;
+    top: 52vw;
+}
+
+#button4 {
+    top: 42.5vw;
+}
+
+#button6 {
+    top: 49vw;
+}
+
+#button7 {
+    top: 55vw;
+}
+
+#button8 {
+    top: 51vw;
+}
+
+#button9 {
+    top: 45.5vw;
+}
+
+#button10 {
+    top: 38vw;
+    position: absolute;
+}
+
+#button11 {
+    top: 38vw;
+    position: absolute;
+}
+
+#button12 {
+    position: absolute;
+    top: 33vw;
+}
+
+.cake1,
+.cake2,
+.cake3,
+.cake4,
+.cake5,
+.cake6,
+.cake7,
+.cake8,
+.cake9 {
+    width: 61.1vw;
+    height: 61.1vw;
+    z-index: 2;
+    position: absolute;
+}
+
+.cake2 {
+    width: 61.2vw;
+    height: 61.2vw;
+    margin-top: -7vw;
+}
+
+.cake8 {
+    width: 58.2vw;
+    height: 58.2vw;
+    margin-top: -5vw;
+}
+
+.cake10,
+.cake11,
+.cake12 {
+    width: 51.6vw;
+    height: 51.6vw;
+    padding-top: 2vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.cake7 {
+    top: -2vw;
+}
+
+.cake9 {
+    margin-top: -5vw;
+}
+
+.cake4,
+.cake5 {
+    margin-top: 0vw;
+}
+
+.cake3 {
+    width: 62.99vw;
+    height: 62.99vw;
+    margin-top: -7vw;
+}
+
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.div10,
+.div11,
+.div12 {
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, rgba(228, 172, 255, 0.850968) 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+    filter: blur(2.3vw);
+    z-index: 0;
+    width: 51.39vw;
+    height: 51.39vw;
+    position: relative;
+
+}
+
+.div2,
+.div6,
+.div7,
+.div11 {
+    background: radial-gradient(119.26% 57.45% at 49.93% 50%, #FFA2C3 30.21%, rgba(174, 216, 255, 0.34) 96.88%);
+}
+
+.div3,
+.div8,
+.div10 {
+    background: radial-gradient(88.04% 42.41% at 49.93% 50%, #FFA2C3 30.21%, rgba(255, 233, 175, 0.74) 96.88%);
+}
+
+.div4 {
+    background: radial-gradient(88.04% 42.41% at 49.93% 50%, #FFA2C3 30.21%, rgba(255, 233, 175, 0.74) 96.88%);
+}
+
+.info1,
+.info2,
+.info3,
+.info4,
+.info5,
+.info6,
+.info7,
+.info8,
+.info9,
+.info10,
+.info12 {
+    padding-top: 13vw;
+    width: 41vw;
+    height: 26.1vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info1 {
+    padding-top: 19.1vw;
+}
+
+.info2 {
+    height: 19vw;
+}
+
+
+.info3 {
+    height: 21.1vw;
+}
+
+.info4 {
+    height: 23.1vw;
+}
+
+.info6 {
+    padding-top: 10vw;
+    height: 26vw;
+}
+
+.info7 {
+    padding-top: 11vw;
+    height: 26vw;
+}
+
+.info8 {
+    height: 22vw;
+    padding-top: 11vw;
+}
+
+.info9 {
+    height: 30vw;
+    padding-top: 11vw;
+}
+
+.info10 {
+    padding-top: 13vw;
+    height: 17vw;
+    width: 44vw;
+    z-index: 2;
+}
+
+.info12 {
+    height: 12vw;
+    padding-top: 14vw;
+    width: 44vw;
+}
+
+.tort1 {
+    width: 54vw;
+}
+
+.circles,
+.circles2,
+.circles3,
+.circles4,
+.circles5,
+.circles6 {
+    position: absolute;
+    top: 43.3vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 12.15vw;
+    text-align: center;
+    padding: 1vw;
+}
+
+.circles2 {
+    top: 46.3vw;
+}
+
+.circles3 {
+    top: 42.5vw;
+}
+
+.circles4 {
+    top: 48.8vw;
+}
+
+.circles5 {
+    top: 45.2vw;
+}
+
+.circles6 {
+    top: 39.2vw;
+}
+
+/* по наведению */
+#button1:hover {
+    color: #D681FF;
+    border: 0.3vw solid #D681FF;
+    transition: 1s;
+}
+
+#button2:hover {
+    color: #FF92B9;
+    border: 0.3vw solid #FF92B9;
+    transition: 1s;
+}
+
+#button3:hover {
+    color: #66BFFF;
+    border: 0.3vw solid #66BFFF;
+    transition: 1s;
+}
+
+#button4:hover {
+    color: #66BFFF;
+    border: 0.3vw solid #66BFFF;
+    transition: 1s;
+}
+
+#button5:hover {
+    color: #D681FF;
+    border: 0.3vw solid #D681FF;
+    transition: 1s;
+}
+
+#button6:hover {
+    color: #FF92B9;
+    border: 0.3vw solid #FF92B9;
+    transition: 1s;
+}
+
+#button7:hover {
+    color: #FF92B9;
+    border: 0.3vw solid #FF92B9;
+    transition: 1s;
+}
+
+#button8:hover {
+    color: #66BFFF;
+    border: 0.3vw solid #66BFFF;
+    transition: 1s;
+}
+
+#button9:hover {
+    color: #FF92B9;
+    border: 0.3vw solid #FF92B9;
+    transition: 1s;
+}
+
+#button10:hover {
+    color: #66BFFF;
+    border: 0.3vw solid #66BFFF;
+    transition: 1s;
+}
+
+#button11:hover {
+    color: #FF92B9;
+    border: 0.3vw solid #FF92B9;
+    transition: 1s;
+}
+
+#button12:hover {
+    color: #FF92B9;
+    border: 0.3vw solid #FF92B9;
+    transition: 1s;
+}
+
+.dark {
+    z-index: 5;
+    position: absolute;
+    width: 100vw;
+    height: 71vw;
+    background-color: #E4ACFF;
+    opacity: 70%;
+}
+
+#head2 {
+    z-index: 6;
+    color: #FFFFFF;
+    position: absolute;
+    top: 31vw;
+    left: 25vw;
+    font-size: 6.16vw;
+    font-family: "PP Pangram Sans Rounded";
+    font-weight: 500;
+}
+
+.thanks {
+    display: none;
+}
+
+.all {
+    height: 65vw;
+}

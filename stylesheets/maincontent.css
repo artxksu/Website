@@ -1,0 +1,173 @@
+body {
+    overflow-x: hidden;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96vw;
+    height: 5.9vw;
+    padding-left: 2.083vw;
+    padding-right: 2.083vw;
+
+
+}
+
+.fon {
+    opacity: 40%;
+    z-index: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    font-family: "PP Pangram Sans Rounded";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.55vw;
+    z-index: 2;
+}
+
+.logo {
+    width: 9.86vw;
+    height: 2.06vw;
+    z-index: 1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 41.18vw;
+    z-index: 1;
+}
+
+.button1,
+.button2,
+.button3,
+.button4 {
+    background-color: #FF92B9;
+    border-radius: 1.94vw;
+}
+
+.button1 {
+    padding: 0.9vw 1.85vw;
+}
+
+.button2 {
+    padding: 0.9vw 1.85vw;
+}
+
+.button3 {
+    padding: 0.9vw 1.95vw;
+}
+
+.button4 {
+    padding: 0.9vw 2.05vw;
+}
+
+.section1 {
+    background-color: #FFB4C9;
+    height: 69.75vw;
+}
+
+.box {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 33.54vw;
+    height: 16.08vw;
+    top: 24.194vw;
+    left: 7.7vw;
+    z-index: 3;
+}
+
+.biglogo {
+    width: 33.19vw;
+    height: 6.94vw;
+}
+
+.text {
+    font-size: 1.99vw;
+    font-family: "PP Pangram Sans Rounded";
+    color: #ffffff;
+    font-weight: 400;
+    z-index: 2 font-size: 1.99vw;
+    line-height: 2.29vw;
+}
+
+.buttonbig {
+    padding: 0.13vw 3.85vw;
+    font-family: "PP Pangram Sans Rounded";
+    background-color: #ffffff;
+    border-radius: 4vw;
+    font-weight: 500;
+    font-size: 1.55vw;
+    z-index: 2;
+    position: absolute;
+    top: 40vw;
+    left: 7.7vw;
+
+}
+
+
+.knopka {
+    font-size: 1.99vw;
+    font-family: "PP Pangram Sans Rounded";
+    color: #FF92B9;
+    line-height: 4vw;
+    font-weight: 400;
+}
+
+.cake {
+    position: absolute;
+    width: 60.49vw;
+    height: 68.055vw;
+    left: 42.68vw;
+    top: 1.56vw;
+    z-index: 3;
+}
+
+.fire {
+    position: absolute;
+    z-index: 4;
+    width: 30.54vw;
+    height: 9.375vw;
+    top: 11.9vw;
+    left: 54.69vw;
+    animation: fire 3s ease-out infinite;
+}
+
+@keyframes fire {
+    from {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+}
+
+.blur {
+    position: absolute;
+    width: 73.57vw;
+    height: 65.31vw;
+    left: 26.5vw;
+    top: 4.3vw;
+    z-index: 2;
+
+}
+
+.knopka:hover {
+
+    transition: 1s;
+    color: #ffffff;
+}
+
+.buttonbig:hover {
+    background: radial-gradient(88.04% 42.41% at 49.93% 50%, #FFA2C3 30.21%, rgba(255, 233, 175, 0.74) 96.88%);
+    transition: 1s;
+    color: #ffffff;
+}
